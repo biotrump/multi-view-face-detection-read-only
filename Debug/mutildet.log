@@ -1,0 +1,61 @@
+﻿Build started 21/3/2013 PM 8:58:54.
+     1>Project "D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\mutildet\mutildet.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\mutildet.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\OPENCV\opencv244\build\include\opencv /ID:\OPENCV\opencv244\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp preprocessFace.cpp
+         preprocessFace.cpp
+     1>d:\opencv\opencv244\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(470): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(471): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(472): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(473): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(474): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(475): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(476): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\preprocessface.cpp(477): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         main.cpp
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(51): warning C4101: 'e' : unreferenced local variable
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(64): warning C4101: 'e' : unreferenced local variable
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(74): warning C4101: 'e' : unreferenced local variable
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(119): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(127): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(129): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(131): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(131): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(134): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(134): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(135): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(135): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(146): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(149): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(149): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(150): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(151): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(151): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(192): warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(241): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(241): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(241): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>d:\ntu-work\face application\02facedetection\multiview_facedetection\mutildet\mutildet\main.cpp(241): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\Debug\mutildet.exe" /NOLOGO /LIBPATH:D:\OPENCV\opencv244\build\x86\vc10\lib /MANIFEST /ManifestFile:"Debug\mutildet.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\Debug\mutildet.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\Debug\mutildet.lib" /MACHINE:X86 Debug\detectObject.obj
+         Debug\ImageUtils_0.7.obj
+         Debug\main.obj
+         Debug\preprocessFace.obj
+         LINK : D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\Debug\mutildet.exe not found or not built by the last incremental link; performing full link
+         mutildet.vcxproj -> D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\Debug\mutildet.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\Debug\mutildet.exe;#1" /manifest Debug\mutildet.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\mutildet.unsuccessfulbuild".
+         Touching "Debug\mutildet.lastbuildstate".
+     1>Done Building Project "D:\ntu-work\Face Application\02FaceDetection\multiview_facedetection\mutildet\mutildet\mutildet.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.48
